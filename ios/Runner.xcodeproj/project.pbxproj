@@ -105,7 +105,6 @@
 				30F2A2CF00B79AA3AFAEFEDC /* Pods-RunnerTests.release.xcconfig */,
 				437C22455E67128E4084E548 /* Pods-RunnerTests.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -491,6 +490,7 @@
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = JD9AB32A3F;
 				ENABLE_BITCODE = NO;
+				GOOGLE_MAPS_API_KEY = Runner/Config.xcconfig;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -674,6 +674,7 @@
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = JD9AB32A3F;
 				ENABLE_BITCODE = NO;
+				GOOGLE_MAPS_API_KEY = Runner/Config.xcconfig;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -697,6 +698,7 @@
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = JD9AB32A3F;
 				ENABLE_BITCODE = NO;
+				GOOGLE_MAPS_API_KEY = Runner/Config.xcconfig;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

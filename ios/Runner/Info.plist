@@ -51,5 +51,7 @@
     <string>이 앱은 항상 위치 정보를 사용합니다.</string>
     <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
     <string>이 앱은 백그라운드에서도 위치 정보를 사용합니다.</string>
+    <key>GOOGLE_MAPS_API_KEY</key>
+    <string>$(GOOGLE_MAPS_API_KEY)</string>
 </dict>
 </plist>

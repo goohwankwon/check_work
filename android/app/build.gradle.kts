@@ -39,6 +39,11 @@ android {
     }
 }
 
+def localProperties = new Properties()
+localProperties.load(new FileInputStream(rootProject.file("local.properties")))
+
+def googleMapsApiKey = localProperties['GOOGLE_MAPS_API_KEY']
+
 flutter {
     source = "../.."
 }
