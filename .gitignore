@@ -45,5 +45,5 @@ app.*.map.json
 /android/app/release
 
 #config file
-/ios/runner/config.xcconfig
+/ios/runner/Config.xcconfig
 
